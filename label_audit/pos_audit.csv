@@ -1,0 +1,85 @@
+id,finding,p,language,verdict,evidence
+01,ACL,1.0,French,correct,complete ACL tear
+02,ACL,1.0,English,correct,complete midsubstance tear
+03,ACL,1.0,Spanish,correct,complete ACL rupture
+04,ACL,0.95,Croatian,correct,ACL rupture at femoral insertion
+05,ACL,0.95,English,correct,chronic complete tear with empty notch
+06,ACL,1.0,English,correct,complete tear midsubstance
+07,ACL,0.95,Croatian,correct,complete rupture (possibly older)
+08,MCL,0.95,English,correct,grade III complete tear
+09,MCL,0.9,Croatian,arguable,"""status after complete rupture"" - chronicity unclear; rubric wants acute"
+10,MCL,0.85,Spanish,over-call,grade I-II sprain (rubric: low-grade sprain = negative)
+11,MCL,0.95,English,correct,complete tear deep+superficial
+12,MCL,0.95,Spanish,error,"""ACL and collateral ligaments without significant alterations"" - tear was the PCL"
+13,MCL,0.8,English,arguable,grade 2 partial tear (rubric needs high-grade partial)
+14,MCL,1.0,Croatian,arguable,"""markedly distended MCL"" - no tear stated"
+15,Medial Meniscus,0.85,English,correct,tear extending to surface
+16,Medial Meniscus,0.9,English,correct,tear extending to surface
+17,Medial Meniscus,0.95,Spanish,correct,medial meniscus rupture
+18,Medial Meniscus,0.85,English,correct,small radial tear
+19,Medial Meniscus,0.95,Bulgarian,correct,grade III tear reaching surface
+20,Medial Meniscus,0.95,Croatian,correct,complex rupture
+21,Medial Meniscus,1.0,Spanish,correct,medial meniscus rupture
+22,Lateral Meniscus,0.85,Bulgarian,over-call,lateral meniscus degeneration only; no tear in either knee
+23,Lateral Meniscus,0.95,English,correct,horizontal tear
+24,Lateral Meniscus,0.8,Turkish,correct,tear reaching inferior articular surface
+25,Lateral Meniscus,0.95,Croatian,correct,complex rupture
+26,Lateral Meniscus,0.95,English,correct,tear with flipped fragment
+27,Lateral Meniscus,0.9,Spanish,correct,complex rupture
+28,Lateral Meniscus,0.8,Croatian,over-call,"""may correspond to intrasubstance rupture"" (rubric: not reaching surface = negative)"
+29,Medial OA,0.98,Croatian,correct,near-total cartilage denudation
+30,Medial OA,0.9,German,correct,medial gonarthrosis with deep chondropathy
+31,Medial OA,0.8,Turkish,correct,femoral and tibial cartilage destruction
+32,Medial OA,0.9,Spanish,correct,grade 3-4 chondral ulcers in weight-bearing zone
+33,Medial OA,0.85,Turkish,correct,full-thickness cartilage loss
+34,Medial OA,0.95,German,correct,high-grade chondropathy to bone
+35,Medial OA,0.85,English,correct,focal full-thickness loss; OA in impression
+36,Lateral OA,0.8,Spanish,correct,full-thickness ulcers with bone changes
+37,Lateral OA,0.85,Spanish,correct,lateral femorotibial arthrosis
+38,Lateral OA,0.8,Greek,over-call,cartilage erosion ICRS grade II (<50% depth)
+39,Lateral OA,0.8,English,arguable,lateral grade-2 chondrosis but impression says severe tricompartmental OA
+40,Lateral OA,0.6,German,over-call,"""no deep or full-thickness cartilage defect"""
+41,Lateral OA,0.8,German,correct,focal deep chondropathy in weight-bearing zone + osteophytes
+42,Lateral OA,0.7,English,arguable,"""small areas"" of full-thickness loss (rubric ~1 cm)"
+43,PF OA,0.9,English,correct,moderate-severe patellar/trochlear cartilage loss
+44,PF OA,0.65,Spanish,correct,partial and near full-thickness ulcers
+45,PF OA,0.8,Greek,correct,ICRS up to grade 4 + osteophytes
+46,PF OA,0.85,English,correct,severe PF chondrosis
+47,PF OA,0.95,English,correct,OA of PF compartment
+48,PF OA,0.85,Croatian,correct,grade III patellar chondromalacia + osteophytes
+49,PF OA,0.9,Greek,correct,ICRS grade IV patellar facet
+50,Effusion,0.75,English,correct,moderate effusion
+51,Effusion,0.9,German,correct,marked hemarthrosis
+52,Effusion,0.75,Spanish,arguable,"""mild to moderate"" effusion"
+53,Effusion,0.75,Turkish,correct,moderately increased fluid
+54,Effusion,0.85,Spanish,correct,moderate effusion
+55,Effusion,0.75,Spanish,arguable,"""Derrame"" - size not given"
+56,Effusion,0.7,English,arguable,effusion - size not given
+57,Synovitis,0.85,Spanish,correct,diffuse synovitis
+58,Synovitis,0.7,Greek,correct,reactive synovitis
+59,Synovitis,0.8,English,correct,synovial hypertrophy indicative of synovitis
+60,Synovitis,0.75,Spanish,correct,diffuse synovitis
+61,Synovitis,0.65,English,correct,mild synovial thickening / synovitis
+62,Synovitis,0.6,English,correct,mild synovitis
+63,Synovitis,0.8,English,correct,effusion with synovitis
+64,Baker's,0.7,Greek,correct,3.5 cm Baker's cyst
+65,Baker's,0.95,English,correct,4 cm Baker's cyst
+66,Baker's,0.85,Greek,correct,3.2 cm cyst with loose bodies
+67,Baker's,0.7,Bulgarian,correct,33 mm Baker's cyst
+68,Baker's,0.8,Spanish,correct,ruptured Baker's cyst
+69,Baker's,0.8,Turkish,over-call,10x5 mm cyst (rubric: moderate or large only)
+70,Baker's,0.9,Croatian,correct,40 mm Baker's cyst
+71,Contusion,0.7,Greek,correct,1.4 cm bone bruise
+72,Contusion,0.6,Croatian,arguable,tibial plateau edema in a degenerative knee; no trauma context
+73,Contusion,0.75,English,correct,probable bone contusion without fracture line
+74,Contusion,0.8,English,arguable,small subarticular edema with fat-pad impingement; not called contusion
+75,Contusion,0.8,Bulgarian,correct,post-traumatic contusion edema
+76,Contusion,0.65,Turkish,error,no marrow edema or contusion described (fibrocystic subchondral changes only)
+77,Contusion,0.9,Bulgarian,arguable,edema belongs to a patellar fracture (rubric: contusion = no fracture line)
+78,Fracture,0.9,English,correct,patellar cortical discontinuity
+79,Fracture,0.9,English,correct,fracture line medial tibial plateau
+80,Fracture,0.98,Bulgarian,correct,multifragment tibial fracture
+81,Fracture,0.95,Bulgarian,arguable,subchondral insufficiency fracture (not traumatic/acute)
+82,Fracture,1.0,English,correct,subchondral fractures
+83,Fracture,0.95,Bulgarian,correct,non-consolidated compression fracture
+84,Fracture,0.95,English,correct,acute osteochondral fracture

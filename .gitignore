@@ -1,0 +1,28 @@
+# ---- Python / OS / editor clutter
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*            # Word / Office lock files
+*.tmp
+
+# ---- Too large for GitHub
+# Per-run training output (~16 GB): fine-tuned checkpoints (best.pt, ~330 MB each) and per-study
+# prediction parquet files. Every metric is aggregated in results/runs.parquet (tracked).
+runs/
+*.pt
+*.pth
+*.ckpt
+# Bootstrap resampling caches (~70 MB); rebuild with code/bootcache.py
+results/cache/
+
+# ---- Radiology report text from the RSNA 2026 Knee dataset
+# Kaggle competition data may not be redistributed, and the project rule is that no
+# reports or images leave the machine (PROJECT_PLAN 13). These files quote report text verbatim.
+label_audit/*_sample_reports.txt
+labeling/runs/

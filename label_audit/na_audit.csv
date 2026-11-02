@@ -1,0 +1,85 @@
+id,finding,language,verdict,should_be,evidence
+01,ACL,Spanish,correct,na,positives-only report; ACL not mentioned
+02,ACL,Greek,correct,na,cruciates not mentioned
+03,ACL,Spanish,correct,na,positives-only report
+04,ACL,Greek,error,neg,"ACL mucoid degeneration only (rubric negative); collaterals+PCL normal"
+05,ACL,English,correct,na,tumor report; ligaments not mentioned
+06,ACL,Bulgarian,error,neg,"""cruciate ligaments intact"""
+07,ACL,Bulgarian,error,neg,"""cruciate ligaments preserved integrity"""
+08,MCL,Spanish,correct,na,positives-only report
+09,MCL,Greek,error,neg,"""ligamentous structures normal"""
+10,MCL,Bulgarian,error,neg,"""collateral ligaments bilaterally unremarkable"""
+11,MCL,English,correct,na,MCL not mentioned (ACL/PCL/retinaculum only)
+12,MCL,Dutch,arguable,neg,"""otherwise no abnormalities"""
+13,MCL,Spanish,correct,na,positives-only report
+14,MCL,Spanish,correct,na,positives-only report
+15,Medial Meniscus,Spanish,correct,na,one-line report
+16,Medial Meniscus,Spanish,correct,na,positives-only report
+17,Medial Meniscus,Spanish,correct,na,positives-only report
+18,Medial Meniscus,Spanish,correct,na,positives-only report
+19,Medial Meniscus,Spanish,correct,na,one-line report
+20,Medial Meniscus,English,correct,na,soft-tissue report; menisci not mentioned
+21,Medial Meniscus,Spanish,correct,na,positives-only report
+22,Lateral Meniscus,Spanish,correct,na,one-line report
+23,Lateral Meniscus,Spanish,correct,na,positives-only report
+24,Lateral Meniscus,Spanish,correct,na,positives-only report
+25,Lateral Meniscus,English,correct,na,menisci not mentioned
+26,Lateral Meniscus,Spanish,correct,na,positives-only report
+27,Lateral Meniscus,Greek,correct,na,lateral meniscus not mentioned
+28,Lateral Meniscus,Spanish,correct,na,one-line report
+29,Medial OA,Spanish,correct,na,positives-only report
+30,Medial OA,Dutch,correct,na,empty findings section
+31,Medial OA,English,correct,na,cartilage not mentioned
+32,Medial OA,English,correct,na,cartilage not mentioned
+33,Medial OA,Bulgarian,error,neg,"""no changes in femoral/tibial/patellar cartilage"""
+34,Medial OA,Spanish,correct,na,positives-only report
+35,Medial OA,Spanish,correct,na,positives-only report
+36,Lateral OA,Dutch,correct,na,only PF cartilage mentioned
+37,Lateral OA,Greek,correct,na,cartilage not mentioned
+38,Lateral OA,Spanish,correct,na,positives-only report
+39,Lateral OA,Spanish,correct,na,positives-only report
+40,Lateral OA,Greek,error,neg,"""articular cartilage... no notable findings"""
+41,Lateral OA,English,correct,na,cartilage not mentioned
+42,Lateral OA,Spanish,correct,na,one-line report
+43,PF OA,Spanish,correct,na,positives-only report
+44,PF OA,Bulgarian,error,neg,"""patella, patellar cartilage normal, no chondromalacia"""
+45,PF OA,Bulgarian,correct,na,only tibial/femoral cartilage mentioned
+46,PF OA,Spanish,correct,na,one-line report
+47,PF OA,English,correct,na,cartilage not mentioned
+48,PF OA,Dutch,correct,na,only femorotibial cartilage mentioned
+49,PF OA,English,correct,na,cartilage not mentioned
+50,Effusion,Dutch,correct,na,empty findings section
+51,Effusion,Spanish,correct,na,positives-only report
+52,Effusion,Dutch,correct,na,truncated report
+53,Effusion,Spanish,correct,na,positives-only report
+54,Effusion,Spanish,correct,na,positives-only report
+55,Effusion,Spanish,correct,na,positives-only report
+56,Effusion,Spanish,correct,na,positives-only report
+57,Synovitis,English,correct,na,synovium not mentioned
+58,Synovitis,English,correct,na,structured template has no synovium line
+59,Synovitis,English,correct,na,synovium not mentioned
+60,Synovitis,Spanish,correct,na,positives-only report
+61,Synovitis,English,arguable,neg,"""Other findings: None"""
+62,Synovitis,Dutch,correct,na,synovium not mentioned
+63,Synovitis,Turkish,correct,na,synovium not mentioned
+64,Baker's,English,arguable,neg,"""No significant abnormality identified"""
+65,Baker's,English,correct,na,popliteal region not mentioned
+66,Baker's,Spanish,correct,na,positives-only report
+67,Baker's,Turkish,correct,na,not mentioned
+68,Baker's,English,correct,na,not mentioned
+69,Baker's,English,correct,na,not mentioned
+70,Baker's,English,correct,na,not mentioned
+71,Contusion,English,error,neg,"plateaus, condyles, fibular head ""unremarkable"""
+72,Contusion,Spanish,correct,na,empty report
+73,Contusion,English,error,neg,"""Normal visualized bones"""
+74,Contusion,English,error,neg,"""No fracture, stress reaction, or osseous lesion"""
+75,Contusion,Spanish,correct,na,positives-only report
+76,Contusion,English,arguable,neg,"""Conclusion: Normal"""
+77,Contusion,Turkish,correct,na,marrow edema not mentioned
+78,Fracture,Spanish,correct,na,positives-only report
+79,Fracture,Spanish,correct,na,positives-only report
+80,Fracture,Spanish,correct,na,positives-only report
+81,Fracture,English,correct,na,bones not mentioned
+82,Fracture,English,correct,na,bones not mentioned
+83,Fracture,Spanish,correct,na,one-line report
+84,Fracture,English,correct,na,bones not mentioned
